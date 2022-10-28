@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* globale style */
+
+.header_containe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 170px;
+}
+.header__logo {
+  margin: 10px 0;
+}
+
+nav {
+  max-width: 417px;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.header__menu {
+  margin: 28px 0;
+}
+
+a:active {
+  color: #18b5dc;
+}
+
+a {
+  color: #3c3c3c;
+}
+
+.header__button {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #3c3c3c;
+  border: 1px solid #3c3c3c;
+  padding: 10px 20px;
+  margin: 19px 0;
+}
+
+.header__button:active {
+  background: #18b5dc;
+  color: #ffffff;
+}
+
+/* about */
+
+.about {
+  background: #f6f6f6;
+}
+
+.about__describe {
+  max-width: 570px;
+  margin: 0 auto;
+}
+.about__title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: #3c3c3c;
+  padding-top: 150px;
+  margin-bottom: 20px;
+}
+
+.header-divider {
+  margin: 0 auto;
+  width: 45px;
+  height: 4px;
+  background: #dddbdb;
+  margin-bottom: 40px;
+}
+
+.about-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #3c3c3c;
+  margin-bottom: 60px;
+}
+
+.about__employees {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 150px;
+}
+
+.about__employees-buttons {
+  display: flex;
+  gap: 4px;
+  padding: 114px 68px;
+  background: #18b5dc;
+  margin-bottom: 20px;
+}
+
+.about__employees-name {
+  margin-top: 20px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #282528;
+}
+
+.about__employees-position {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #646464;
+}
+
+.about__employees-button:active {
+  background: #ffffff;
+  color: #18b5dc;
+}
+/* about End */
+
+/* footer */
+.footer__logo {
+  padding: 40px 0 28px;
+  margin: 0 auto;
+}
+
+.footer__menu {
+  padding: 28px 0;
+  margin: 0 auto;
+  max-width: 384px;
+  font-size: 20px;
+}
+
+.footer__social {
+  margin: 0 auto;
+  max-width: 250px;
+  padding-bottom: 40px;
+}
+.footer__social-flex {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  gap: 10px;
+}
+
+/* footer End */
