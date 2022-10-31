@@ -71,6 +71,7 @@ a {
   border: 1px solid #3c3c3c;
   padding: 10px 20px;
   margin: 19px 0;
+  cursor: pointer;
 }
 
 .header__button:active {
@@ -127,12 +128,58 @@ a {
   padding-bottom: 150px;
 }
 
+.about__employees-img1{
+  background-image: url(../image/katie-simon-headshot.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about__employees-img2{
+  background-image: url(../image/foto1.png);
+}
+
+.about__employees-img3{
+  background-image: url(../image/foto2.png);
+}
+
+.about__employees-img4{
+  background-image: url(../image/foto3.png);
+}
+
 .about__employees-buttons {
+  
   display: flex;
   gap: 4px;
-  padding: 114px 68px;
-  background: #18b5dc;
+  justify-content: center;
+  align-items: center;
+   width: 270px;
+  height: 270px;
   margin-bottom: 20px;
+  cursor: pointer;
+}
+.about__employees-button{
+  background: #5DCBE6;
+  height: 42px;
+  width: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  cursor: pointer;
+  color: white;
+}
+
+.about__employees-button:hover{
+background: white;
+color: #18B5DC;
+}
+
+.about__employees-buttons:hover{
+  background: #18B5DC;
+}
+
+.about__employees-buttons:hover .about__employees-button{
+  visibility: visible;
 }
 
 .about__employees-name {
@@ -154,10 +201,7 @@ a {
   color: #646464;
 }
 
-.about__employees-button:active {
-  background: #ffffff;
-  color: #18b5dc;
-}
+
 /* about End */
 
 /* footer */
